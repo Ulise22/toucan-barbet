@@ -1,0 +1,43 @@
+.about {
+    background-color: #76D7C4 ;
+    overflow: hidden;
+}
+
+.about__paragraph {
+    border-bottom: 1px solid #666;
+    padding: 20px;
+    text-align: center;
+}
+
+.about__container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.about__img {
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.about__img img {
+    width: inherit;
+}
+
+@media screen and (max-width: 1450px) {
+    .about__container {
+        flex-direction: column;
+    }
+    .about__img {
+        width: 100%;
+    }
+
+    .about__text__p {
+        text-align: center;
+    }
+
+    .about__text__title {
+        text-align: center;
+    }
+}

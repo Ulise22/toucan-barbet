@@ -1,0 +1,23 @@
+.offers{
+    background-color: #A3E4D7;
+    padding: 20px;
+}
+
+.offers__targets {
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.offers__title {
+    text-align: center;
+    border-bottom: 1px solid #666;
+}
+
+@media screen and (max-width: 960px) {
+    .offers__targets{
+        gap: 0;
+    }
+}

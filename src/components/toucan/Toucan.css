@@ -1,0 +1,40 @@
+.toucan {
+    background-color: #76D7C4 ;
+    overflow: hidden;
+}
+
+.toucan__container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    padding: 20px;
+}
+
+.toucan__img {
+    width: 700px;
+}
+
+.toucan__img img {
+    width: inherit;
+}
+
+.toucan__text__title {
+    text-align: center;
+}
+
+@media screen and (max-width: 1450px) {
+    .toucan__container{
+        flex-direction: column;
+    }
+
+    .toucan__img{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .toucan__img {
+        width: 100%;
+        margin: 0;
+    }
+}
